@@ -7,159 +7,102 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <nav class="navbar">
-        <div class="nav-container">
-            <h3 class="logo">NK</h3>
-            <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#goals">Goals</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="logo">
+            <ion-icon name="layers-outline"></ion-icon>
         </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="profile-section">
-                    <div class="profile-pic-wrapper">
-                        <div class="floating-shape shape1"></div>
-                        <div class="floating-shape shape2"></div>
-                        <img src="Nicole's Portfolio pic.jpeg" alt="Nicole's Profile Picture" class="profile-img">
-                    </div>
+        <div class="hero-container">
+            <div class="profile-section">
+                <div class="profile-pic-wrapper">
+                    <div class="floating-shape shape1"></div>
+                    <div class="floating-shape shape2"></div>
+                    <img src="Nicole's Portfolio pic.jpeg" alt="Nicole" class="profile-img">
                 </div>
-                <div class="intro-section">
-                    <h1 class="greeting">Hi, I'm Nicole Kerubo</h1>
-                    <p class="tagline">Data Science Student </p>
-                    <p class="description">Passionate about transforming data into meaningful insights. Currently studying Statistics and Data Science at Strathmore University.</p>
-                    <div class="buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    
-                    </div>
-                </div>
+            </div>
+
+            <div class="hero-text">
+                <h1>Hi, I'm Nicole Kerubo</h1>
+                <p class="tagline">Data Science Student </p>
+                <p>Aspiring Data Scientist with a strong foundation in programming. <br> I am passionate about using data and technology to solve real-world problems.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <div class="card-icon">📊</div>
-                    <h3>Who I Am</h3>
-                    <p>I'm Nicole Kerubo, a Statistics and Data Science student at Strathmore University. I enjoy working with data, solving complex problems, and continuously learning new technologies.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🎯</div>
-                    <h3>What I Do</h3>
-                    <p>I analyze data to derive meaningful insights, develop solutions to real-world problems, and apply statistical knowledge to make informed decisions in various projects.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">✨</div>
-                    <h3>My Passion</h3>
-                    <p>Using data to drive decisions, embracing continuous learning, and contributing to projects that make a meaningful difference in organizations and communities.</p>
-                </div>
+    <section id="skills" class="section">
+        <h2 class="title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>📱 Frontend</h4>
+                <p>HTML, CSS</p>
+            </div>
+            <div class="skill-card">
+                <h4>🐍 Programming</h4>
+                <p>Python, R, Java(Object-Oriented Programming)</p>
+            </div>
+            <div class="skill-card">
+                <h4>💼 Professional</h4>
+                <p>Communication skills, Problem-Solving</p>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
-        <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h4>📱 Frontend Development</h4>
-                    <ul class="skill-list">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h4>🐍 Programming Languages</h4>
-                    <ul class="skill-list">
-                        <li>Python</li>
-                        <li>R Programming</li>
-                        <li>Data Analysis</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h4>💼 Professional Skills</h4>
-                    <ul class="skill-list">
-                        <li>Problem Solving</li>
-                        <li>Communication</li>
-                        <li>Team Collaboration</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h4>📚 Currently Learning</h4>
-                    <ul class="skill-list">
-                        <li>Advanced CSS</li>
-                        <li>JavaScript Frameworks</li>
-                        <li>Web Design</li>
-                    </ul>
-                </div>
+    <section id="goals" class="section pink-bg">
+        <h2 class="title">Career Goals</h2>
+        <div class="goals-grid">
+            <div class="goal-card">
+                <h3>Short Term</h3>
+                <p>Mastering web development to enhance my logical thinking and prepare me for more advanced work in tech and data.</p>
+            </div>
+            <div class="goal-card">
+                <h3>Medium Term</h3>
+                <p>Securing a Data Analyst internship.</p>
+            </div>
+            <div class="goal-card">
+                <h3>Long Term</h3>
+                <p>Becoming a Lead Data Scientist.</p>
             </div>
         </div>
     </section>
 
-    <section id="goals" class="goals-section">
-        <div class="container">
-            <h2 class="section-title">Career Goals</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Short Term</h3>
-                        <p>Master HTML, CSS, and JavaScript to become a proficient web developer and enhance my full-stack capabilities.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Medium Term</h3>
-                        <p>Secure an internship or entry-level position as a data analyst where I can apply my statistical knowledge.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Long Term</h3>
-                        <p>Become a skilled Data Scientist, contributing to meaningful projects that help organizations make data-driven decisions.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
-            <div class="contact-content">
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p><strong>Email:</strong> <a href="mailto:kerubonicole54@gmail.com">kerubonicole54@gmail.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Nicole Kerubo. All rights reserved.</p>
-    </footer>
+    <div class="footer-container">
+        <div class="footer-box">
+            <h3 class="footer-logo"><ion-icon name="layers-outline"></ion-icon><span></span></h3>
+            <p>Focused on growth, innovation and building a strong foundation in technology</p>
+        </div>
+
+        <div class="footer-box">
+            <h4>Socials</h4>
+            <ul class="footer-links">
+                <li><a href="mailto:kerubonicole54@gmail.com">Email Me</a></li>
+                <li><a href="https://www.linkedin.com/in/nicolekerubo/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/nicolekerubo-11/" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h4>Location</h4>
+            <p>Nairobi, Kenya</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 Nicole Kerubo. </p>
+    </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
